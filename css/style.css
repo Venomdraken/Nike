@@ -1,0 +1,258 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    background: #322E41;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: inline-block;
+    transition: 500ms;
+}
+
+.header__menu li:hover .header__link {
+    color: #D47300;
+}
+
+.header__menu li {
+    padding: 23px 22px;
+    transition: 500ms;
+}
+
+.header__menu li:hover {
+    background: #fff;
+}
+
+.header__banner {
+    background: url(../img/banner.png) no-repeat center / cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.header__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__desc span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cards {
+    background: #EBEBEB;
+}
+
+.cards__left {
+    max-width: 540px;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px;
+    /* margin-top: -36px; */
+}
+
+.cards__left-img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.cards__left-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.cards__left-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+
+.card {
+    max-width: 255px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.card__box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+    text-align: center;
+    color: #2C2A2A;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.card__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #9B9B9B;
+}
+
+.cards__content {
+    display: flex;
+    column-gap: 30px;
+    /* margin-top: -36px; */
+    transform: translateY(-36px);
+}
+
+.cards__right {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.footer {
+    background: #322E41;
+    padding: 40px 0;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer__input {
+    padding: 9px 10px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.footer__text {
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    height: 86px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.footer__btn {
+    padding: 9px;
+    background: #544294;
+    border-radius: 6px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+    column-gap: 73px;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: 500ms;
+}
+
+.footer__link:hover {
+    color: #D57300;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 40px;
+}
